@@ -1,0 +1,67 @@
+body {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  background-color: #3f3e3e;
+  padding: 0px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+div {
+  text-align: center;
+  background-color: whitesmoke
+}
+background-color {
+  position: absolute; /* Simulate a background element */
+  top: 0;
+  left: 0;
+}
+ul {
+  text-align: center;
+  width: 50%;
+  position: relative;
+  left: 20%;
+}
+
+.contenedor {
+  display: flex; /* Utilizar flexbox */
+}
+
+.contenedor img {
+  max-width: 98%; /* Para asegurarse de que las imágenes no se extiendan más allá de su contenedor */
+  margin-right: 2%; /* Espacio entre las imágenes (opcional) */
+  border-radius: 40%;
+}
+/* Style the video: 100% width and height to cover the entire window */
