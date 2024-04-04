@@ -1,0 +1,40 @@
+/*Usabildad*/
+body {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    background-color: #3f3e3e;
+    padding: 0px;
+  }
+  
+  /*Perzonalizacion Gengeral*/
+  div {
+    text-align: center;
+    background-color: whitesmoke
+  }
+  background-color {
+    position: absolute; /* Simulate a background element */
+    top: 0;
+    left: 0;
+  }
+  
+  /*Centramos y definimos tamaño de una lista*/
+  ul {
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 20%;
+  }
+  
+  /*Al terminar el documento CSS podremos apreciar como se usa el elemento contenedor para ordenar imagenes */
+  .contenedor {
+    display: flex; /* Utilizar flexbox */
+  }
+  
+  .contenedor img {
+    max-width: 98%; /* Para asegurarse de que las imágenes no se extiendan más allá de su contenedor */
+    margin-right: 2%; /* Espacio entre las imágenes (opcional) */
+    border-radius: 40%;
+  }
+  /* Style the video: 100% width and height to cover the entire window */
+  
