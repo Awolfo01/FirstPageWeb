@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro</title>
+	<link rel="stylesheet" href="css/estilo.css">
+	<script src="js/validacion.js"></script>
+</head>
+<body>
+	
+<form name="form1" id="form1" method="get" action="#" onSubmit="return valida();" >
+	<h1>Registro De Clientes</h1>
+	<div>
+		<label class="label" for="login">Login</label>
+		<input type="text" name="login" id="login">
+	</div>
+	<div>
+		<label class="label" for="clave">Clave</label>
+		<input type="password" name="clave" id="clave">
+	</div>
+	<div>
+		<label class="label" for="repetir">Repetir Clave</label>
+		<input type="password" name="repetir" id="repetir">
+	</div>
+	<div>
+		<label class="label" for="nombre">Nombre Completo</label>
+		<input type="text" name="nombre" id="nombre">
+	</div>
+	<div>
+		<label class="label" for="direccion">Direccion</label>
+		<input type="text" name="direccion" id="direccion">
+	</div>
+	<div>
+		<label class="label" for="edad">Edad</label>
+		<input type="number" name="edad" id="edad">
+	</div>
+	<div>
+		<label class="label" for="fono">Telefono De Contacto</label>
+		<input type="text" name="fono" id="fono">
+	</div>
+		<div>
+		<label class="label" for="movil">Celular De Contacto</label>
+		<input type="text" name="movil" id="movil">
+	</div>
+	<div>
+		<label class="label" for="email">Correo</label>
+		<input type="email" name="email" id="email">
+	</div>
+
+	<div>
+		<label class="label" for="comuna">Comuna</label>
+		<select name="comuna" id="comuna">
+			<option>Seleccione</option>
+			<option>Cerrillos</option>
+			<option>Cerro Navia</option>
+			<option>Conchalí</option>
+			<option>El Bosque</option>
+			<option>Estación Central</option>
+			<option>Huechuraba</option>
+			<option>Independencia</option>
+			<option>La Cisterna</option>
+			<option>La Florida</option>
+			<option>La Pintana</option>
+			<option>La Granja</option>
+			<option>La Reina</option>
+			<option>Las Condes</option>
+			<option>Lo Barnechea</option>
+			<option>Lo Espejo</option>
+			<option>Lo Prado</option>
+			<option>Macul</option>
+			<option>Ñuñoa</option>
+			<option>Pedro Aguirre Cerda</option>
+			<option>Peñalolen</option>
+			<option>Providencia</option>
+			<option>Pudahuel</option>
+			<option>Puente Alto</option>
+			<option>Quilicura</option>
+			<option>Quinta Normal</option>
+			<option>Recoleta</option>
+			<option>Renca</option>
+			<option>San Bernardo</option>
+			<option>San Miguel</option>
+			<option>San Joaquin</option>
+			<option>San Ramon</option>
+			<option>Santiago Centro</option>
+			<option>Vitacura</option>
+		</select>
+	</div>
+
+	<div>
+		
+		<label class="label">Hobbies</label>
+		<section class="section">
+			<input type="checkbox" name="hobbies" id="leer" value="leer">
+			<label for="leer">Leer</label>
+			<br>
+			<input type="checkbox" name="hobbies" id="radio" value="radio">
+			<label for="radio">Radio</label>
+			<br>
+			<input type="checkbox" name="hobbies" id="tv" value="tv">
+			<label for="tv">Television</label>
+			<br>
+		</section>
+		<section class="section">
+			<input type="checkbox" name="hobbies" id="internet" value="internet">
+			<label for="internet">Internet</label>
+			<br>
+			<input type="checkbox" name="hobbies" id="play" value="play">
+			<label for="play">Play Station</label>
+			<br>
+			<input type="checkbox" name="hobbies" id="call" value="call">
+			<label for="call">Call Of Duty</label>
+			<br>
+		</section>
+	</div>
+		<div>
+		<label class="label">Genero</label>
+		<input type="radio" name="genero" id="F" value="F">
+		<label for="F">Femenino</label>
+		<input type="radio" name="genero" id="M" value="M">
+		<label for="M">Masculino</label>
+	</div>
+	<div class="centro">
+		<input type="submit" name="btnEnviar" id="btnEnviar" value="Enviar">
+		<input type="reset" name="btnLimpiar" id="btnLimpiar" value="Restablecer">
+	</div>
+</form>
+</body>
+</html>
